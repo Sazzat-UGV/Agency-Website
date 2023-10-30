@@ -91,6 +91,10 @@ body{
 .active_nav{
   color: var(--secondary-color) !important;
 }
+.mobile_menu i{
+color: #fff;
+font-size: 1.3rem;
+}
 /*header style end*/
 
 /*hero section style start*/

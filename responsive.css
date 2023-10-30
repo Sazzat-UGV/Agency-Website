@@ -1,0 +1,119 @@
+@media only screen and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    h1,h2{
+        font-size: 1.4rem !important;
+        line-height: 45px !important;
+    }
+    p{
+        font-size: .7rem !important;
+    }
+    section{
+        padding: 40px 0px;
+      }
+      .navigation{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        background: #05043eb1;
+        display: none;
+      }
+      .nav_list{
+        flex-direction: column;
+      }
+      .menu{
+        display: flex;
+        align-items: center;
+        column-gap: 2rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100%;
+        background: #211c5c;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .hero_image{
+        width: 100%;
+      }
+      .choose_us_box{
+        width: 48%;
+      }
+      .choose_us_wrapper{
+        flex-wrap: wrap;
+        row-gap: 2rem;
+      }
+      .choose_us_content h4{
+        font-size: .9rem !important;
+      }
+
+      .offer-wrapper{
+        flex-wrap: wrap;
+        justify-content: start;
+        column-gap: 2rem;
+        row-gap: 2rem;
+      }
+      .offer_box{
+        width: 30%;
+      }
+      .counter_number{
+        font-size: 1.5rem;
+      }
+      .counter_text{
+        font-size: 0.7rem;
+      }
+      .slider_img_wrapper img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+      .customer_review-wrapper{
+        width: 75%;
+      }
+      .rating span i{
+        font-size: 1.2rem;
+      }
+      .single_team{
+        width: 48%;
+      }
+      .team_list{
+        flex-wrap: wrap;
+        row-gap: 1.7rem;
+      }
+      .newsletter_input{
+        width: 100%;
+        padding: 5px 5px;
+      }
+      .footer{
+        padding: 40px 0px;
+      }
+      .footer_top{
+        flex-wrap: wrap;
+        row-gap: 2rem;
+      }
+      .footer_item_01,.footer_item_02,.footer_item_03,.footer_item_04{
+        width: 48%;
+      }
+      .footer_item_02,.footer_item_03,.footer_item_04 h2{
+        font-size: .9rem;
+        margin-bottom: 10px;
+      }
+      .quick_list li{
+        line-height: 25px;
+      }
+      .quick_list li a{
+        font-size: .7rem;
+      }
+      .offer_box img{
+        width: 50px;
+        height: 50px;
+      }
+      .offer_box h4{
+        font-size: .8rem;
+      }
+}
