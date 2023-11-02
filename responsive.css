@@ -1,3 +1,37 @@
+@media only screen and (max-width:992px){
+  .container{
+    width: 100%;
+  }
+  h1,h2{
+    font-size: 1.5rem !important;
+  }
+  p{
+    font-size: 0.9rem;
+  }
+  .choose_us_wrapper{
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+
+  .choose_us_box{
+    width: 31%;
+  }
+  .offer_box{
+    width: 23%;
+  }
+  .offer-wrapper{
+    flex-wrap: wrap;
+    row-gap: 1.7rem;
+  }
+  .team_list{
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+
+  .single_team{
+    width: 31%;
+  }
+}
 @media only screen and (max-width:768px){
     .container{
         width: 100%;
@@ -37,6 +71,9 @@
         background: #211c5c;
         flex-direction: column;
         justify-content: center;
+      }
+      .mobile_menu{
+        display: block;
       }
       .hero_image{
         width: 100%;
@@ -116,4 +153,55 @@
       .offer_box h4{
         font-size: .8rem;
       }
+}
+
+
+@media only screen and (max-width:576px){
+  .hero-wrapper{
+   flex-direction: column;
+  }
+
+  .hero_content, .hero_image{
+    width: 100%;
+  }
+  .hero_image img{ 
+    width: 100%;
+  }
+  .choose_us_box{
+    width: 100%;
+  }
+  .offer-wrapper{
+    column-gap: 0;
+    justify-content: space-between;
+  }
+  .offer_box{
+    width: 47%;
+  }
+  .search_engine_wrapper{
+    flex-direction:column ;
+  }
+  .search_engine_content, .search_engine_img{
+    width: 100%;
+  }.counter_wrapper{
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+
+  .counter_item{
+    width: 48%;
+    text-align: center;
+  }
+  .customer_review-wrapper{
+    width: 100%;
+  }
+  .single_team{
+    width: 100%;
+  }
+  .newsletter_input input::placeholder{
+    font-size: 0.7rem;
+  }
+  .sub_button{
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
 }

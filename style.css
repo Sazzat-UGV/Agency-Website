@@ -77,6 +77,14 @@ body{
   color: #fff;
 }
 
+.menu{
+  display: flex;
+  column-gap: 2rem;
+}
+
+.mobile_menu{
+  display: none;
+}
 .nav_list .nav_item a{
   color: #fff;
   text-decoration: none;
@@ -95,6 +103,7 @@ body{
 color: #fff;
 font-size: 1.3rem;
 }
+
 /*header style end*/
 
 /*hero section style start*/
@@ -534,3 +543,4 @@ margin-bottom: 20px;
   opacity: 75%;
 }
 /*footer section style end*/
+
